@@ -13,6 +13,8 @@ int main() {
 	printf("Enter your number of courses with credits: ");
 	scanf("%d", &totalCourses);
 	} while (totalCourses = 0);
+	do {
+
 	for (i = 1; i <= totalCourses; i++) {
 		printf("\nEnter the courses credit: ");
 		scanf("%d", &credit);
@@ -25,6 +27,7 @@ int main() {
 		totalCredit += credit;
 
 	}
+	} while (totalCredit = 0);
 	Gpa = totalWeightedscore / totalCredit;
 
 	printf("Your gpa is: %.2f", Gpa);
