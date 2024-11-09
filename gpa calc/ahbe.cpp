@@ -26,16 +26,16 @@ int main() {
 	Gpa = totalWeightedscore / totalCredit;
 
 	printf("Your gpa is: %.2f", Gpa);
-
-
-
-
-
-
-
-
-
-
+	if (Gpa = 4)
+		printf("\nYou are HIGH HONOUR student.");
+	else if (Gpa < 4 && Gpa >= 3)
+		printf("\nYou are HONOUR student.");
+	else if (Gpa < 3 && Gpa>= 2)
+		printf("\nYou are SATISFACTORY student.");
+	else if (Gpa < 2 && Gpa >= 1.80)
+		printf("\nYou are PROBATION student.");
+	else
+		printf("\nYou are UNSATISFACTORY student.");
 
 
 
