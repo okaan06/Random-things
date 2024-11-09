@@ -9,8 +9,10 @@ int main() {
 
 	int i,credit,totalCredit=0,totalCourses;		
 	double score,totalWeightedscore=0,weightedScore,Gpa;
+	do {    
 	printf("Enter your number of courses with credits: ");
 	scanf("%d", &totalCourses);
+	} while (totalCourses = 0);
 	for (i = 1; i <= totalCourses; i++) {
 		printf("\nEnter the courses credit: ");
 		scanf("%d", &credit);
